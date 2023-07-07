@@ -1,0 +1,38 @@
+[
+	{
+		"id": "c67ab8a7",
+		"title": "Développement du site Kasa en React",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+		],
+        "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
+		"description": "Kasa est une entreprise spécialisée dans la location d’appartements entre particuliers depuis près de 10 ans. Le site Kasa a été codé il y a près de 10 ans et l'entreprise souhaite faire une refonte totale de son site pour passer à une stack complète en JavaScript avec NodeJS côté Back-end et React côté Front-end. Mon rôle a été de développer la partie front-end du site web, en utilisant les composants React, les routes React Router tout en respectant les maquettes Figma.",
+		"technologies": [
+			"Batignolle",
+			"Montmartre"
+		]
+	},
+    {
+		"id": "c67ab8b2",
+		"title": "Développement du site Kasa en React",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"pictures": [
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+		],
+        "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
+		"description": "Kasa est une entreprise spécialisée dans la location d’appartements entre particuliers depuis près de 10 ans. Le site Kasa a été codé il y a près de 10 ans et l'entreprise souhaite faire une refonte totale de son site pour passer à une stack complète en JavaScript avec NodeJS côté Back-end et React côté Front-end. Mon rôle a été de développer la partie front-end du site web, en utilisant les composants React, les routes React Router tout en respectant les maquettes Figma.",
+		"technologies": [
+			"Batignolle",
+			"Montmartre"
+		]
+	}
+]
