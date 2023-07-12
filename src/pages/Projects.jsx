@@ -1,22 +1,20 @@
-
+import ProjectsCarousel from "../components/Carousel";
 import Filter from "../components/Filter";
 
 function Projects() {
   return (
     <div>
-      <h1>Réalisations</h1>
-
-      <div className="a">
+      <header>
+        <h1>Réalisations</h1>
+      </header>
+      <main>
         <div className="filter-bar">
-        <Filter/>
+          <Filter />
         </div>
         <div className="projects-container">
-          <button>projet1</button>
-          <button>projet2</button>
-          <button>projet3</button>
-          <button>projet4</button>
+        <ProjectsCarousel/>
         </div>
-      </div>
+      </main>
     </div>
   );
 }

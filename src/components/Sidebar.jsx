@@ -17,9 +17,7 @@ function Sidebar() {
       <Row className="navigation">
         <ul>
           <li>
-            <NavLink to="/" className="btn-nav">
-              Accueil
-            </NavLink>
+            <NavLink to="/" className="btn-nav">Accueil</NavLink>
           </li>
           <li>
             <NavLink to="/about" className="btn-nav">A propos</NavLink>

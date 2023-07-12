@@ -1,14 +1,8 @@
 @use "../custom";
 
-.btn-nav {
-    color: custom.$secondary-color;
-    background-color: custom.$quatre-color; 
-}
-
 .navigation{
     margin-bottom: 2em;
 }
-
 .btn-nav{
     display: flex;
     background-color: custom.$quatre-color;
@@ -18,4 +12,8 @@
     text-decoration: none;
     justify-content: center;
     margin-top: 0.5em;
+    :active{
+        color: custom.$secondary-color; //ne marche pas et le hover non plus
+        font-style: italic;
+    }
 }

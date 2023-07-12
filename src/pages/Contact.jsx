@@ -1,11 +1,15 @@
 import FormContact from "../components/FormContact";
 
 function Contact() {
-    return (
-      <div>
+  return (
+    <div>
+      <header>
         <h1>Contact</h1>
-        <FormContact/>
-      </div>
-    );
-  }
+      </header>
+      <main>
+        <FormContact />
+      </main>
+    </div>
+  );
+}
 export default Contact;
