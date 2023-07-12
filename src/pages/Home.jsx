@@ -12,9 +12,10 @@ function Home() {
         <h1>Georgie Abreu</h1>
         <h2>Développeuse Frontend</h2>
       </header>
+
       <main>
         <div className='main-home'>
-        <Button style={{ backgroundColor: '#FEB321', border: 'none', color: 'black' }} size="lg">Mon CV</Button>
+        <Button size="lg">Mon CV</Button>
         <div className="socialMedia">
           <button><Image src={github} alt="github" width={32} height={32} roundedCircle/></button>
           <button><Image src={linkedin} alt="linkedin" width={32} height={32} roundedCircle/></button>

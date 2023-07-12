@@ -1,5 +1,4 @@
 import Sidebar from "./Sidebar";
-import "./Layout.scss";
 import "../custom.scss";
 import { Outlet } from "react-router-dom";
 import { useEffect } from "react";
@@ -12,12 +11,12 @@ function Layout() {
     document.title = "Portfolio de Georgie Abreu";
   }, []);
   return (
-    <Container>
+    <Container className="fluid">
       <Row>
-        <Col className="col-4 sidebar">
+        <Col className="col-4 sidebar bg-primary bg-gradient rounded">
           <Sidebar />
         </Col>
-        <Col className="col-8 page">
+        <Col className="col-8 page bg-warning bg-gradient bg-opacity-50 rounded">
           <Outlet />
         </Col>
       </Row>

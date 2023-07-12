@@ -1,3 +1,4 @@
+@use "../custom";
 
 .main-home{
     margin-top: 6em;
@@ -5,6 +6,8 @@
     flex-direction: column;
     width: 50%;
 }
+
+
 
 .socialMedia {
     margin-top: 2em;
@@ -17,5 +20,5 @@
         :hover{
             transform: scale(1.1);
         }
-    }
+    } 
 }

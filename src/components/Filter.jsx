@@ -1,35 +1,21 @@
-import Form from 'react-bootstrap/Form';
+import ToggleButton from 'react-bootstrap/ToggleButton';
+import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 
 function Filter() {
   return (
-    <Form>
-    {["radio"].map((type) => (
-      <div key={`inline-${type}`} className="mb-3">
-        <Form.Check
-          inline
-          label="Frontend"
-          name="Filter"
-          type={type}
-          id={`inline-${type}-1`}
-        />
-        <Form.Check
-          inline
-          label="Backend"
-          name="Filter"
-          type={type}
-          id={`inline-${type}-2`}
-        />
-        <Form.Check
-          inline
-          label="Gestion de projet"
-          name="Filter"
-          type={type}
-          id={`inline-${type}-3`}
-        />
-      </div>
-    ))}
-  </Form>
-  );
+
+    <ToggleButtonGroup type="radio" name="options" defaultValue={1}>
+    <ToggleButton id="tbg-radio-1" value={1} variant='secondary' className='text-white'>
+      Frontend
+    </ToggleButton>
+    <ToggleButton id="tbg-radio-2" value={2} variant='secondary' className='text-white'>
+      Backend
+    </ToggleButton>
+    <ToggleButton id="tbg-radio-3" value={3} variant='secondary' className='text-white'>
+      Gestion de projet
+    </ToggleButton>
+  </ToggleButtonGroup>
+  )
 }
 
 export default Filter;

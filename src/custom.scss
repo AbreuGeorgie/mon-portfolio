@@ -3,45 +3,41 @@
 
 $primary-color: black;
 $secondary-color: white;
-$tercery-color : #FEB321;
-$quatre-color : #2CA4A4;
-$cinq-color : #e7cb95;
+$tercery-color: #feb321;
+$quatre-color: #2ca4a4;
+$cinq-color: #e7cb95;
 //4524
 
-$base-font-stack: 'Montserrat', sans-serif;
-$title-font-stack: 'Bebas Neue', sans-serif;
+$base-font-stack: "Montserrat", sans-serif;
+$title-font-stack: "Bebas Neue", sans-serif;
 
-h1, button, li{
-    font-family: $title-font-stack;
-    font-size: 36px;
+h1,
+button,
+li {
+  font-family: $title-font-stack;
+  font-size: 36px;
 }
 
-p, h2{
-    font-family: $base-font-stack;
+p,
+h2 {
+  font-family: $base-font-stack;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 header {
-    margin: 5rem 3rem;
+  margin: 5rem 3rem;
 }
 
-p{
-    margin: 5rem;
+p {
+  margin: 5rem;
 }
 
-main{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-
-
-
-
-
