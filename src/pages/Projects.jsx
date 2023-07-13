@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div>
       <header>
-        <h1>Réalisations</h1>
+        <h1>Mes projets réalisés</h1>
       </header>
       <main>
         <div className="filter-bar">
