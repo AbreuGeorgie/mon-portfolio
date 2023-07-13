@@ -15,6 +15,7 @@ function Projects() {
         <div className="projects-container">
         <MyCard
         cover="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+        image="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
         title="HTML"
         technologies="HTML/CSS"/>
         </div>

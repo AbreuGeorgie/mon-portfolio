@@ -1,27 +1,43 @@
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
+import React, { useState } from 'react';
+import { Card, Container } from 'react-bootstrap';
 import './MyCard.scss';
 
 function MyCard({cover, title, technologies}) {
+  const [isHovered, setIsHovered] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  const handleCardClick = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
-    <Container >
-    <Row xs={1} md={2} className='g-4'>
-      {Array.from({ length: 4 }).map((_, idx) => (
-        <Col className="cardBox" key={idx}>
-          <Card className=" card">
-            <Card.Img variant="top" src={cover} />
+    <Container>
+      <Card
+        className={`flip-card ${isHovered ? 'hovered' : ''} ${isFlipped ? 'flipped' : ''}`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        onClick={handleCardClick}
+      >
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
+              <Card.Img src={cover}/>
+          </div>
+          <div className="flip-card-back">
             <Card.Body>
               <Card.Title>{title}</Card.Title>
-              <Card.Text>
-                {technologies}
-              </Card.Text>
+              <Card.Text>{technologies}</Card.Text>
             </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+          </div>
+        </div>
+      </Card>
     </Container>
   );
 }
