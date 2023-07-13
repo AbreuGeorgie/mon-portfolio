@@ -24,11 +24,6 @@
     backface-visibility: hidden;
   }
   
-  .flip-card-front {
-    background-color: #ffffff;
-  }
-  
   .flip-card-back {
-    background-color: #f0f0f0;
     transform: rotateY(180deg);
   }

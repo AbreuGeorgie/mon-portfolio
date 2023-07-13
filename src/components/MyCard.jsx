@@ -21,7 +21,7 @@ function MyCard({cover, title, technologies}) {
   return (
     <Container>
       <Card
-        className={`flip-card ${isHovered ? 'hovered' : ''} ${isFlipped ? 'flipped' : ''}`}
+        className={`flip-card ${isHovered ? 'hovered' : ''} ${isFlipped ? 'flipped' : ''} bg-secondary`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={handleCardClick}
@@ -30,7 +30,7 @@ function MyCard({cover, title, technologies}) {
           <div className="flip-card-front">
               <Card.Img src={cover}/>
           </div>
-          <div className="flip-card-back">
+          <div className="flip-card-back bg-secondary">
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>{technologies}</Card.Text>
