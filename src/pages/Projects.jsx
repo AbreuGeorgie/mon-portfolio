@@ -1,5 +1,6 @@
-import ProjectsCarousel from "../components/Carousel";
+
 import Filter from "../components/Filter";
+import MyCard from "../components/MyCard";
 
 function Projects() {
   return (
@@ -12,7 +13,10 @@ function Projects() {
           <Filter />
         </div>
         <div className="projects-container">
-        <ProjectsCarousel/>
+        <MyCard
+        cover="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+        title="HTML"
+        technologies="HTML/CSS"/>
         </div>
       </main>
     </div>

@@ -1,17 +1,17 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function ProjectsCarousel() {
+function ProjectsCarousel({picture, pictureTitle, title, technologies}) {
   return (
     <Carousel>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
+          src={picture}
+          alt={pictureTitle}
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>{title}</h3>
+          <p>{technologies}</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
