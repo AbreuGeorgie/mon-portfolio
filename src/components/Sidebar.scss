@@ -1,19 +1,6 @@
 @use "../custom";
 
 .navigation{
-    margin-bottom: 2em;
-}
-.btn-nav{
-    display: flex;
-    background-color: custom.$quatre-color;
-    border-color: custom.$quatre-color;
-    border-radius: 8px;
-    color: custom.$secondary-color;
-    text-decoration: none;
-    justify-content: center;
-    margin-top: 0.5em;
-    :active{
-        color: custom.$secondary-color; //ne marche pas et le hover non plus
-        font-style: italic;
-    }
+    margin: 2em 0em;
+
 }
