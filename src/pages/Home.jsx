@@ -4,13 +4,30 @@ import "./Home.scss";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 import Image from 'react-bootstrap/esm/Image';
+import Container from 'react-bootstrap/esm/Container';
+import Row from "react-bootstrap/Row";
+import Col from 'react-bootstrap/esm/Col';
+import avatar from "../assets/avatar.png";
 
 function Home() {
   return (
-    <div>
+    <Container>
       <header>
+        <Row>
+          <Col>
         <h1>Georgie Abreu</h1>
         <h2>Développeuse Frontend</h2>
+        </Col>
+        <Col className="text-center d-lg-none">
+          <Image
+            src={avatar}
+            roundedCircle
+            alt="avatar"
+            width={200}
+            height={200}
+          />
+        </Col>
+        </Row>
       </header>
 
       <main>
@@ -22,7 +39,7 @@ function Home() {
         </div>
         </div>
       </main>
-    </div>
+    </Container>
   );
 }
 export default Home;

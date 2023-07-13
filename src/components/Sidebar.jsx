@@ -1,3 +1,5 @@
+
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -9,8 +11,8 @@ import { SidebarButton } from "./SidebarButton";
 
 function Sidebar() {
   return (
-    <Container>
-      <Row className="navigation justify-content-center">
+    <Container fluid className="my-lg-5">
+      <Row className="navigation d-none d-lg-block">
         <Col lg={12} className="text-center">
           <Image
             src={avatar}
@@ -24,7 +26,7 @@ function Sidebar() {
 
       <Row>
         <Col lg={12}>
-          <Navbar expand="lg" className="flex-column">
+          <Navbar collapseOnSelect expand="lg" className="flex-column align-items-end align-items-lg-center">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="flex-column">

@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import "./Sidebar.scss";
 
 export function SidebarButton({text, buttonText}) {
   const navigate = useNavigate();
