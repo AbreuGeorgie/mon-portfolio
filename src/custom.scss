@@ -1,12 +1,4 @@
 @import "./_variables_overrides.scss";
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-
-$primary-color: black;
-$secondary-color: white;
-$tercery-color: #feb321;
-$quatre-color: #2ca4a4;
-$cinq-color: #e7cb95;
-//4524
 
 $base-font-stack: "Montserrat", sans-serif;
 $title-font-stack: "Bebas Neue", sans-serif;
@@ -41,3 +33,5 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
