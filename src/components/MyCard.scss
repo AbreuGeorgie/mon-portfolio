@@ -1,7 +1,7 @@
 .flip-card {
     position: relative;
-    width: 300px;
-    height: 200px;
+    width: 30vh;
+    height: 50vh;
     perspective: 1000px;
   }
   
@@ -26,4 +26,9 @@
   
   .flip-card-back {
     transform: rotateY(180deg);
+  }
+
+  .imageCard{
+    height: 100%;
+    object-fit: cover;
   }

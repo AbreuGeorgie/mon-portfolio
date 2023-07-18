@@ -28,7 +28,7 @@ function MyCard({cover, title, technologies}) {
       >
         <div className="flip-card-inner">
           <div className="flip-card-front">
-              <Card.Img src={cover}/>
+              <Card.Img src={cover} className='imageCard'/>
           </div>
           <div className="flip-card-back bg-secondary">
             <Card.Body>
