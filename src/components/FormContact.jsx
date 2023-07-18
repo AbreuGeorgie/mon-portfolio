@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 function FormContact() {
   return (
-<Form>
+<Form action="mailto:abreu.georgie@gmail.com" method="post" enctype="text/plain">
              <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridName">
           <Form.Label>Nom</Form.Label>
@@ -32,7 +32,7 @@ function FormContact() {
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridMessage">
           <Form.Label>Votre message</Form.Label>
-          <Form.Control type="text" placeholder="Votre message"/>
+          <Form.Control type="text" placeholder="Votre message" style={{ height: '100px' }}/>
         </Form.Group>
       </Row>
       <Button variant="primary" type="submit">
