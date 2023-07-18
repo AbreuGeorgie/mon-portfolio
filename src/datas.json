@@ -1,7 +1,7 @@
 [
 	{
 		"id": "c67ab8a7",
-		"category":"frontend",
+		"category":"Frontend",
 		"title": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
@@ -19,7 +19,7 @@
 	},
 	{
 		"id": "c67ab8b2",
-		"category":"frontend",
+		"category":"Projet",
 		"title": "Développement du site Kasa en React",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
@@ -35,10 +35,12 @@
 			"ReactJS",
 			"JS", 
 			"GitHub"
-		]
+		],
+		"site":"http://github.com"
 	},
     {
-		"id": "c67ab8b2",
+		"id": "c67ab8bd2",
+		"category":"Frontend",
 		"title": "Développement du site Kasa en React",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
