@@ -25,6 +25,7 @@ function Home() {
             alt="avatar"
             width={200}
             height={200}
+            className='bounce'
           />
         </Col>
         </Row>
