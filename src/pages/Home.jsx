@@ -18,7 +18,11 @@ function Home() {
         <h1>Georgie Abreu</h1>
         <h2>Développeuse Frontend</h2>
         </Col>
-        <Col className="text-center d-lg-none">
+        </Row>
+      </header>
+
+      <main>
+      <Col className="text-center d-lg-none">
           <Image
             src={avatar}
             roundedCircle
@@ -28,10 +32,6 @@ function Home() {
             className='bounce'
           />
         </Col>
-        </Row>
-      </header>
-
-      <main>
         <div className='main-home'>
         <Button size="lg">Mon CV</Button>
         <div className="socialMedia">
