@@ -8,10 +8,12 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import avatar from "../assets/avatar.png";
 import { SidebarButton } from "./SidebarButton";
+import MyNavbar from "./MyNavbar"
+import "./Sidebar.scss"
 
 function Sidebar() {
   return (
-    <Container fluid className="my-lg-5">
+    <Container className="my-lg-5">
       <Row className="navigation d-none d-lg-block">
         <Col lg={12} className="text-center">
           <Image
@@ -26,9 +28,9 @@ function Sidebar() {
       </Row>
 
       <Row>
-        <Col lg={12}>
+        <Col className="lg-12 bar-menu justify-content-end justify-content-lg-center">
+          <MyNavbar />     
           <Navbar collapseOnSelect expand="lg" className="flex-column align-items-end align-items-lg-center">
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="flex-column">
                 <SidebarButton buttonText="" text="Accueil" />
