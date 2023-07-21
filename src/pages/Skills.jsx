@@ -1,6 +1,4 @@
 import Badge from "react-bootstrap/Badge";
-import Stack from "react-bootstrap/Stack";
-import { Image } from "react-bootstrap";
 import html from "../assets/html.png";
 import js from "../assets/js.png";
 import reactjs from "../assets/reactjs.png";
