@@ -3,7 +3,6 @@ import Filter from "../components/Filter";
 import MyCard from "../components/MyCard";
 import datas from "../datas.json";
 import { Link } from "react-router-dom";
-import './Projects.scss'
 
 function Projects() {
   const [filterCategory, setFilter] = useState("Frontend");
@@ -22,7 +21,7 @@ function Projects() {
           <Filter change={handleChange}/>
         </section>
 
-        <section className="cardsContainer bg-none my-2">
+        <section className="d-flex flex-wrap justify-content-center bg-none mt-4">
           {datas.filter(card => card.category === filterCategory).map((card) => (
             <Link to={card.site} className="projectCard" key={card.id}>
               <MyCard

@@ -1,8 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import "../custom.scss";
 import "./Home.scss";
-import github from "../assets/github.png";
-import linkedin from "../assets/linkedin.png";
+import github from "../assets/logos/github.png";
+import linkedin from "../assets/logos/linkedin.png";
 import Image from 'react-bootstrap/esm/Image';
 import Container from 'react-bootstrap/esm/Container';
 import Row from "react-bootstrap/Row";
