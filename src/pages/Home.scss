@@ -1,22 +1,20 @@
 @use "../custom";
 
-.main-home{
-    margin-top: 10em;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+.main-home {
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .socialMedia {
-    margin-top: 2em;
-    display: flex;
-    justify-content: center;
-    & button{
-        border: none;
-        background: none;
-        border-radius: 30px;
-        :hover{
-            transform: scale(1.1);
-        }
-    } 
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  & a {
+    margin: 1em;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }

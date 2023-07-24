@@ -3,6 +3,7 @@ import Filter from "../components/Filter";
 import MyCard from "../components/MyCard";
 import datas from "../datas.json";
 import { Link } from "react-router-dom";
+import MyModal from '../components/Modale';
 
 function Projects() {
   const [filterCategory, setFilter] = useState("Frontend");
@@ -23,7 +24,7 @@ function Projects() {
 
         <section className="d-flex flex-wrap justify-content-center bg-none mt-4">
           {datas.filter(card => card.category === filterCategory).map((card) => (
-            <Link to={card.site} className="projectCard" key={card.id}>
+            <Link to={card.site} className="projectCard" key={card.id} target="_blank" rel="noopener noreferrer">
               <MyCard
                 cover={card.cover}
                 title={card.title}
@@ -31,6 +32,7 @@ function Projects() {
               />
             </Link>
           ))}
+                      <MyModal/>
         </section>
       </main>
     </div>
