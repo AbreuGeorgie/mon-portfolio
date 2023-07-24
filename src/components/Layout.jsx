@@ -12,8 +12,8 @@ function Layout() {
   }, []);
 
   return (
-    <Container fluid className="mt-lg-5">
-      <Row className="vh-75 g-lg-1">
+    <Container fluid className="mt-lg-5 px-lg-6">
+      <Row className="vh g-lg-1">
         <Col xs={12} lg={3} className="sidebar bg-primary bg-gradient rounded-4">
           <Sidebar />
         </Col>
