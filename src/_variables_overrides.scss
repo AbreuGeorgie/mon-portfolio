@@ -4,3 +4,15 @@ $secondary: #2CA4A4;
 $info: #e7cb95;
 $link-decoration: none;
 
+$spacer: 1rem;
+
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  auto: auto,
+  6: $spacer * 5, // Add a new size
+);
