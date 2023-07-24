@@ -1,3 +1,5 @@
+@use "../custom";
+
 .nav-burger {
     width: 100%;
     height: 5em;
@@ -17,7 +19,7 @@
 .burger-bar {
     width: 4em;
     height: 0.5em;
-    background-color: green;
+    background-color: #2CA4A4;
     border-radius: 0.5em;
 }
 
@@ -42,7 +44,7 @@
     position: absolute;
     top: 5em;
     right: 3em;
-    background: forestgreen;
+    background: #2CA4A4;
     border-radius: 20px;
     width: auto;
     padding: 1em;
@@ -51,6 +53,15 @@
 .nav-items{
     display: flex;
     flex-direction: column;
+    font-family: custom.$title-font-stack; 
+    font-size: larger;
+    & a{
+        margin-top: 1rem;
+    } 
+    & a:active{
+        font-style: italic;
+    }
+    
 }
 
 /* ----- animations--------- */
