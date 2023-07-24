@@ -1,6 +1,6 @@
 
 
-import Container from "react-bootstrap/Container";
+
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Row from "react-bootstrap/Row";
@@ -9,12 +9,11 @@ import Image from "react-bootstrap/Image";
 import avatar from "../assets/avatar.png";
 import { SidebarButton } from "./SidebarButton";
 import MyNavbar from "./MyNavbar"
-import "./Sidebar.scss"
 
 function Sidebar() {
   return (
-    <Container className="my-lg-5">
-      <Row className="navigation d-none d-lg-block">
+    <>
+      <Row className="my-lg-5 navigation d-none d-lg-block">
         <Col lg={12} className="text-center">
           <Image
             src={avatar}
@@ -27,8 +26,8 @@ function Sidebar() {
         </Col>
       </Row>
 
-      <Row>
-        <Col className="lg-12 bar-menu justify-content-end justify-content-lg-center">
+      <Row className="my-lg-5">
+        <Col className="lg-12 bar-menu d-flex justify-content-end justify-content-lg-center">
           <MyNavbar />     
           <Navbar collapseOnSelect expand="lg" className="flex-column align-items-end align-items-lg-center">
             <Navbar.Collapse id="basic-navbar-nav">
@@ -43,7 +42,7 @@ function Sidebar() {
           </Navbar>
         </Col>
       </Row>
-    </Container>
+    </>
   );
 }
 
