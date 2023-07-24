@@ -19,7 +19,7 @@ function MyCard({cover, title, technologies}) {
   };
 
   return (
-    <Container>
+    <Container className='pb-4'>
       <Card
         className={`flip-card ${isHovered ? 'hovered' : ''} ${isFlipped ? 'flipped' : ''} bg-secondary`}
         onMouseEnter={handleMouseEnter}
