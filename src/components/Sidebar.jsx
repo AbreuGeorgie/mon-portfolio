@@ -5,24 +5,16 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import avatar from "../assets/avatar.png";
 import { SidebarButton } from "./SidebarButton";
 import MyNavbar from "./MyNavbar"
+import Avatar from "./Avatar";
 
 function Sidebar() {
   return (
     <>
       <Row className="my-lg-5 navigation d-none d-lg-block">
         <Col lg={12} className="text-center">
-          <Image
-            src={avatar}
-            roundedCircle
-            alt="avatar"
-            width={200}
-            height={200}
-            className='bounce'
-          />
+          <Avatar/>
         </Col>
       </Row>
 
