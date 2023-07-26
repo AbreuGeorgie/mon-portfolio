@@ -4,7 +4,6 @@ import './MyCard.scss';
 
 function MyCard({cover, title, technologies, onClick}) {
   const [isHovered, setIsHovered] = useState(false);
-  const [isFlipped, setIsFlipped] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -17,7 +16,7 @@ function MyCard({cover, title, technologies, onClick}) {
   return (
     <Container className='pb-4'>
       <Card
-        className={`flip-card ${isHovered ? 'hovered' : ''} ${isFlipped ? 'flipped' : ''} bg-secondary`}
+        className={`flip-card ${isHovered ? 'hovered' : ''} bg-secondary`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={onClick}
@@ -29,7 +28,12 @@ function MyCard({cover, title, technologies, onClick}) {
           <div className="flip-card-back bg-secondary">
             <Card.Body>
               <Card.Title>{title}</Card.Title>
-              <Card.Text>{technologies}</Card.Text>
+              <Card.Text className="w-100 m-0">Technologies utilisées :{" "}
+                <ul>
+                  {technologies.map((techno) => (
+                    <li key={techno}>{techno}</li>
+                  ))}
+                </ul></Card.Text>
             </Card.Body>
           </div>
         </div>
