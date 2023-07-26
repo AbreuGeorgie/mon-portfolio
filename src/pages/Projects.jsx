@@ -12,6 +12,10 @@ function Projects() {
   }
   console.log(filterCategory)
 
+  const [basicModal, setBasicModal] = useState(false);
+
+  const toggleShow = () => setBasicModal(!basicModal);
+
   return (
     <div>
       <header className="mb-5">
@@ -19,20 +23,26 @@ function Projects() {
       </header>
       <main> 
         <section className="filter-bar">
-          <Filter change={handleChange}/>
+          <Filter change={handleChange} />
         </section>
 
         <section className="d-flex flex-wrap justify-content-center bg-none mt-4">
           {datas.filter(card => card.category === filterCategory).map((card) => (
-            <Link to={card.site} className="projectCard" key={card.id} target="_blank" rel="noopener noreferrer">
-              <MyCard
+            //<Link to={card.site} className="projectCard" key={card.id} target="_blank" rel="noopener noreferrer">
+            <>
+              <MyCard 
                 cover={card.cover}
                 title={card.title}
                 technologies={card.technologies}
+                onClick={toggleShow}
               />
-            </Link>
+              <MyModal show={basicModal}
+                      setShow={setBasicModal}
+                      toggleShow={toggleShow}/>
+                      </>
+            //</Link>
           ))}
-                      <MyModal/>
+                      
         </section>
       </main>
     </div>

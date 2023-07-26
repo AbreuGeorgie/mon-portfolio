@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Card, Container } from 'react-bootstrap';
 import './MyCard.scss';
 
-function MyCard({cover, title, technologies}) {
+function MyCard({cover, title, technologies, onClick}) {
   const [isHovered, setIsHovered] = useState(false);
   const [isFlipped, setIsFlipped] = useState(false);
 
@@ -14,17 +14,13 @@ function MyCard({cover, title, technologies}) {
     setIsHovered(false);
   };
 
-  const handleCardClick = () => {
-    setIsFlipped(!isFlipped);
-  };
-
   return (
     <Container className='pb-4'>
       <Card
         className={`flip-card ${isHovered ? 'hovered' : ''} ${isFlipped ? 'flipped' : ''} bg-secondary`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        onClick={handleCardClick}
+        onClick={onClick}
       >
         <div className="flip-card-inner">
           <div className="flip-card-front">

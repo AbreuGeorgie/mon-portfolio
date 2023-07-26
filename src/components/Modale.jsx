@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import {
   MDBBtn,
   MDBModal,
@@ -10,15 +10,12 @@ import {
   MDBModalFooter,
 } from 'mdb-react-ui-kit';
 
-export default function MyModal({title, description, technologies}) {
-  const [basicModal, setBasicModal] = useState(false);
+export default function MyModal({title, description, technologies, show, setShow, toggleShow}) {
 
-  const toggleShow = () => setBasicModal(!basicModal);
 
   return (
-    <>
-      <MDBBtn onClick={toggleShow}>LAUNCH DEMO MODAL</MDBBtn> 
-      <MDBModal show={basicModal} setShow={setBasicModal} tabIndex='-1'>
+    <> 
+      <MDBModal show={show} setShow={setShow} tabIndex='-1'>
         <MDBModalDialog>
           <MDBModalContent>
             <MDBModalHeader>
