@@ -4,9 +4,11 @@
 		"id": "c67ab8a7",
 		"category":"Frontend",
 		"title": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+		"date": "Janvier 2023",
 		"cover": "projets/booki.png",
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"description": "L’entreprise Booki souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. En tant que développeuse Web je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
+		"context": "L’entreprise Booki souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. En tant que développeuse Web je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
+		"description":"",
 		"technologies": [
 			"HTML/CSS"
 		]
@@ -15,6 +17,7 @@
 		"id": "c67ab8u9",
 		"category":"Frontend",
 		"title": "Créer une page web dynamique avec Javascript",
+		"date": "Février 2023",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
@@ -24,7 +27,8 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"description": "Je travaille comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur afin de réaliser la partie front-end du projet.",
+		"context": "Je travaille comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur afin de réaliser la partie front-end du projet.",
+		"description":"",
 		"technologies": [
 			"HTML",
 			"CSS", 
@@ -36,6 +40,7 @@
 		"id": "c67ab8fg5",
 		"category":"Projet",
 		"title": "Planifiez le développement du site de votre client",
+		"date": "Avril 2023",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
@@ -45,7 +50,8 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"description": "Je suis développeuse front-end au sein de l’agence Webgencia. Cette semaine, on m'a confié une mission un peu différente de d’habitude. Il ne s’agit pas de développer un site mais de mener, préparer et planifier le projet de développement d’un site. En effet, Qwenta, un de mes clients, souhaite faire développer un “Menu Maker”. Il s’agit d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. C’est l’occasion pour moi de mettre en place une méthodologie de travail agile et de collaborer avec Soufiane, Product Owner.",
+		"context": "Je suis développeuse front-end au sein de l’agence Webgencia. Cette semaine, on m'a confié une mission un peu différente de d’habitude. Il ne s’agit pas de développer un site mais de mener, préparer et planifier le projet de développement d’un site. En effet, Qwenta, un de mes clients, souhaite faire développer un “Menu Maker”. Il s’agit d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. C’est l’occasion pour moi de mettre en place une méthodologie de travail agile et de collaborer avec Soufiane, Product Owner.",
+		"description":"",
 		"technologies": [
 			"TRELLO",
 			"METHODOLOGIE AGILE", 
@@ -57,6 +63,7 @@
 		"id": "c67ab8p3",
 		"category":"Frontend",
 		"title": "Débuggez et optimisez un site de photographe",
+		"date": "Mai 2023",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
@@ -66,7 +73,8 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"description": "Je suis développeuse freelance, et j'ai décidé de proposer mes services d’optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé l’un de mes amis. Nina répond positivement à ma demande en me demandant une optimisation de son site.",
+		"context": "Je suis développeuse freelance, et j'ai décidé de proposer mes services d’optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé l’un de mes amis. Nina répond positivement à ma demande en me demandant une optimisation de son site.",
+		"description":"",
 		"technologies": [
 			"SEO",
 			"JAVASCRIPT", 
@@ -78,6 +86,7 @@
 		"id": "c67ab8b2",
 		"category":"Frontend",
 		"title": "Développement du site Kasa en React",
+		"date": "Mai 2023",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
@@ -87,7 +96,8 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"description": "Kasa est une entreprise spécialisée dans la location d’appartements entre particuliers depuis près de 10 ans. Le site Kasa a été codé il y a près de 10 ans et l'entreprise souhaite faire une refonte totale de son site pour passer à une stack complète en JavaScript avec NodeJS côté Back-end et React côté Front-end. Mon rôle a été de développer la partie front-end du site web, en utilisant les composants React, les routes React Router tout en respectant les maquettes Figma.",
+		"context": "Kasa est une entreprise spécialisée dans la location d’appartements entre particuliers depuis près de 10 ans. Le site Kasa a été codé il y a près de 10 ans et l'entreprise souhaite faire une refonte totale de son site pour passer à une stack complète en JavaScript avec NodeJS côté Back-end et React côté Front-end. Mon rôle a été de développer la partie front-end du site web, en utilisant les composants React, les routes React Router tout en respectant les maquettes Figma.",
+		"description":"",
 		"technologies": [
 			"ReactJS",
 			"JS", 
@@ -99,6 +109,7 @@
 		"id": "c67ab8by7",
 		"category":"Backend",
 		"title": "Développez le back-end d'un site de notation de livres",
+		"date": "Juin 2023",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
@@ -108,7 +119,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"description": "Je suis développeuse back-end en freelance depuis maintenant un an dans la région de Lille. J'ai l’habitude de travailler avec Kévin, un développeur front-end plus expérimenté que moi, et qui a déjà un bon réseau de contacts dans le milieu. Kévin me contacte pour me proposer de travailler avec lui en mutualisant nos compétences front / back sur un tout nouveau projet qui lui a été proposé. Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres.",
+		"context": "Je suis développeuse back-end en freelance depuis maintenant un an dans la région de Lille. J'ai l’habitude de travailler avec Kévin, un développeur front-end plus expérimenté que moi, et qui a déjà un bon réseau de contacts dans le milieu. Kévin me contacte pour me proposer de travailler avec lui en mutualisant nos compétences front / back sur un tout nouveau projet qui lui a été proposé. Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres.",
 		"technologies": [
 			"NODE.JS",
 			"EXPRESS", 

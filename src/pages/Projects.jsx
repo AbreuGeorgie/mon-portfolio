@@ -42,8 +42,11 @@ function Projects() {
                   key={`${card.id} - modale`}
                   title={card.title}
                   description={card.description}
+                  context={card.context}
                   technologies={card.technologies}
                   site={card.site}
+                  type={card.type}
+                  date={card.date}
                   show={selectedCardId === card.id}
                   setShow={() => setSelectedCardId(null)}
                   toggleShow={() => toggleShow(card.id)}
