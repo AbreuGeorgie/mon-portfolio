@@ -6,37 +6,58 @@ import {
   MDBModalHeader,
   MDBModalTitle,
   MDBModalBody,
-  MDBModalFooter,
-} from 'mdb-react-ui-kit';
+} from "mdb-react-ui-kit";
+import { Badge } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-export default function MyModal({ title, description, show, setShow, site, technologies }) {
+export default function MyModal({
+  title,
+  description,
+  context,
+  show,
+  setShow,
+  site,
+  technologies,
+  date,
+  type
+}) {
   return (
     <>
-      <MDBModal show={show} onHide={() => setShow(false)} tabIndex='-1'>
-        <MDBModalDialog>
-          <MDBModalContent>
-            <MDBModalHeader>
-              <MDBModalTitle>{title}</MDBModalTitle>
-              <MDBBtn className='btn-close' color='none' onClick={() => setShow(false)}></MDBBtn>
+      <MDBModal show={show} onHide={() => setShow(false)} tabIndex="-1">
+        <MDBModalDialog className="">
+          <MDBModalContent className="rounded text-center">
+            <MDBModalHeader className="align-items-start">
+              <MDBModalTitle>
+                <h1>{title}</h1>
+              </MDBModalTitle>
+              <MDBBtn
+                className="btn-close"
+                color="none"
+                onClick={() => setShow(false)}
+              ></MDBBtn>
             </MDBModalHeader>
             <MDBModalBody>
-              <p>Description du projet : {description}</p>
-              <p>
-                Technologies utilisées :{" "}
-                <ul>
-                  {technologies.map((techno) => (
-                    <li key={techno}>{techno}</li>
-                  ))}
-                </ul>
-              </p>
-              <p>Lien vers le projet : {site}</p>
+              <h2 className="text-secondary">Description du projet :</h2>
+              <p className="m-0 mb-1">{context}</p>
+              <h2 className="text-secondary">Date du projet :</h2>
+              <p className="m-0 mb-1">{date}</p>
+              <h3 className="font-italic font-weight-normal">{type}</h3>
+              <h2 className="text-secondary">Technologies utilisées :</h2>
+              <ul>
+                {technologies.map((techno) => (
+                  <li>
+                    {" "}
+                    <Badge pill bg="secondary">
+                      {techno}
+                    </Badge>
+                  </li>
+                ))}
+              </ul>
+              <Link to={site} target="_blank" rel="noopener noreferrer">
+                <h2 >Lien vers le projet</h2>
+              </Link>
+              
             </MDBModalBody>
-
-            <MDBModalFooter>
-              <MDBBtn color='secondary' onClick={() => setShow(false)}>
-                Close
-              </MDBBtn>
-            </MDBModalFooter>
           </MDBModalContent>
         </MDBModalDialog>
       </MDBModal>

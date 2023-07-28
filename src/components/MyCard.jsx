@@ -31,7 +31,7 @@ function MyCard({cover, title, technologies, onClick}) {
               <Card.Text className="w-100 m-0">Technologies utilisées :{" "}
                 <ul>
                   {technologies.map((techno) => (
-                    <li key={techno}>{techno}</li>
+                    <li>{techno}</li>
                   ))}
                 </ul></Card.Text>
             </Card.Body>
