@@ -21,7 +21,7 @@ function Skills() {
         <div className="d-flex flex-wrap justify-content-evenly w-100">
           <div className="d-flex flex-column align-items-center m-lg-3  img-sm-size img-md-size img-lg-size img-xl-size">
             <img src={html} width={100} height={100} alt="html" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 HTML
               </Badge>
@@ -29,7 +29,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={css} width={100} height={100} alt="css" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 CSS
               </Badge>
@@ -37,7 +37,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={js} width={110} height={100} alt="js" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 JS
               </Badge>
@@ -45,7 +45,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={reactjs} width={100} height={100} alt="reactjs" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 REACTJS
               </Badge>
@@ -53,7 +53,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={nodejs} width={100} height={100} alt="node.js" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 NODE.JS
               </Badge>
@@ -61,7 +61,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={mongodb} width={100} height={100} alt="mongodb" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 MONGODB
               </Badge>
@@ -69,7 +69,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={trello} width={100} height={100} alt="trello" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 TRELLO
               </Badge>
@@ -77,7 +77,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={figma} width={120} height={100} alt="figma" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 FIGMA
               </Badge>
@@ -85,7 +85,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={github2} width={100} height={100} alt="github" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 GITHUB
               </Badge>
@@ -93,7 +93,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={bootstrap} width={100} height={100} alt="bootstrap" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 BOOTSTRAP
               </Badge>
@@ -101,7 +101,7 @@ function Skills() {
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={sass} width={120} height={100} alt="sass" />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 SASS
               </Badge>
