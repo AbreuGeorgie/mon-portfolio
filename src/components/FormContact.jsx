@@ -32,7 +32,7 @@ function FormContact() {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form className="form-contact" onSubmit={handleSubmit}>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridName">
           <Form.Label>Nom</Form.Label>
