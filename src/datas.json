@@ -66,11 +66,10 @@
 		"date": "Mai 2023",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+			"projets/p5-1.png",
+			"projets/p5-2.png",
+			"projets/p5-3.png",
+			"projets/p5-4.png"
 		],
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
 		"context": "Je suis développeuse freelance, et j'ai décidé de proposer mes services d’optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé l’un de mes amis. Nina répond positivement à ma demande en me demandant une optimisation de son site.",
