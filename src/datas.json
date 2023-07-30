@@ -8,9 +8,16 @@
 		"cover": "projets/booki.png",
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
 		"context": "L’entreprise Booki souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. En tant que développeuse Web je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
-		"description":"",
+		"description":"Dans ce projet, j'ai implémenté l'interface responsive de la page d'accueil du site internet Booki (qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix) avec HTML et CSS à l'aide de la maquette fournie sur Figma. J'ai utilisé Flexbox pour certaine partie de mon CSS et appréhender Flexbox est ce qui a été pour moi le plus compliqué dans ce projet. J'ai surmonté ces difficultés grâce à la ; : documentation Mozzila; : et de la pratique, une fois pris en main, flexbox m'a fait gagner du temps sur l'écriture de mon code CSS",
+		"compétences":[
+			"Implémenter une interface responsive avec HTML et CSS",
+			"Versionner son projet avec Git et Github",
+			"Intégrer du contenu conformément à une maquette avec HTML et CSS",
+			"Installer un environnement de développement front-end"
+		],
 		"technologies": [
-			"HTML/CSS"
+			"HTML",
+			"CSS"
 		]
 	},
 	{
@@ -29,6 +36,12 @@
         "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
 		"context": "Je travaille comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur afin de réaliser la partie front-end du projet.",
 		"description":"",
+		"compétences":[
+			"Implémenter une interface responsive avec HTML et CSS",
+			"Versionner son projet avec Git et Github",
+			"Intégrer du contenu conformément à une maquette avec HTML et CSS",
+			"Installer un environnement de développement front-end"
+		],
 		"technologies": [
 			"HTML",
 			"CSS", 
