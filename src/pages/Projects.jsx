@@ -18,7 +18,7 @@ function Projects() {
 
   return (
     <div className="scroll">
-            <header className="mb-5">
+      <header className="mb-5">
         <h1>Mes projets réalisés</h1>
       </header>
       <main>
@@ -29,9 +29,8 @@ function Projects() {
           {datas
             .filter((card) => card.category === filterCategory)
             .map((card) => (
-              <div className="d-flex flex-wrap justify-content-center bg-none mt-4">
+              <div key={`${card.id} - card`} className="d-flex flex-wrap justify-content-center bg-none mt-4">
                 <MyCard
-                  key={`${card.id} - card`}
                   id={card.id}
                   cover={card.cover}
                   title={card.title}
@@ -39,7 +38,7 @@ function Projects() {
                   onClick={() => toggleShow(card.id)}
                 />
                 <MyModal
-                  key={`${card.id} - modale`}
+                  // key={`${card.id} - modale`}
                   title={card.title}
                   description={card.description}
                   context={card.context}
@@ -47,6 +46,7 @@ function Projects() {
                   site={card.site}
                   type={card.type}
                   date={card.date}
+                  pictures={card.pictures}
                   show={selectedCardId === card.id}
                   setShow={() => setSelectedCardId(null)}
                   toggleShow={() => toggleShow(card.id)}

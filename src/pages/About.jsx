@@ -5,7 +5,7 @@ function About() {
         <h1>A propos de moi</h1>
       </header>
       <main>
-        <p className="mt-5">
+        <p className="mt-5 txt-justify">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed
           elit ac felis rutrum semper. Donec in interdum quam, vel malesuada mi.
           Etiam enim augue, elementum eu orci ut, imperdiet efficitur eros. Sed

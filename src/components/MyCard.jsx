@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Card, Container } from 'react-bootstrap';
-import './MyCard.scss';
+import React, { useState } from "react";
+import { Card, Container, ListGroup } from "react-bootstrap";
+import "./MyCard.scss";
 
-function MyCard({cover, title, technologies, onClick}) {
+function MyCard({ cover, title, technologies, onClick }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -14,26 +14,26 @@ function MyCard({cover, title, technologies, onClick}) {
   };
 
   return (
-    <Container className='pb-4'>
+    <Container className="pb-4">
       <Card
-        className={`flip-card ${isHovered ? 'hovered' : ''} bg-secondary`}
+        border="primary"
+        className={`flip-card ${isHovered ? "hovered" : ""} bg-primary`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={onClick}
       >
         <div className="flip-card-inner">
-          <div className="flip-card-front">
-              <Card.Img src={cover} className='imageCard'/>
+          <div className="card-container flip-card-front">
+            <Card.Img src={cover} className="imageCard" />
           </div>
-          <div className="flip-card-back bg-secondary">
+          <div className="card-container flip-card-back bg-secondary">
             <Card.Body>
               <Card.Title>{title}</Card.Title>
-              <Card.Text className="w-100 m-0">Technologies utilisées :{" "}
-                <ul>
-                  {technologies.map((techno) => (
-                    <li>{techno}</li>
-                  ))}
-                </ul></Card.Text>
+              <ListGroup>
+                {technologies.map((techno, i) => (
+                  <ListGroup.Item key={i}>{techno}</ListGroup.Item>
+                ))}
+              </ListGroup>
             </Card.Body>
           </div>
         </div>
