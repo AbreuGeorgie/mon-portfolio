@@ -27,7 +27,7 @@ function Home() {
           <Avatar />
         </Col>
         <div className="main-home">
-          <Button size="lg">Mon CV</Button>
+          <Button href="cv_georgie.pdf" target="_blank" size="lg">Mon CV</Button>
           <div className="socialMedia">
             <Link
               to="https://www.linkedin.com/in/georgie-abreu-b4592225a/"
