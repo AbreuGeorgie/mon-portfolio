@@ -6,11 +6,13 @@ function About() {
       </header>
       <main>
         <p className="mt-5 txt-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed
-          elit ac felis rutrum semper. Donec in interdum quam, vel malesuada mi.
-          Etiam enim augue, elementum eu orci ut, imperdiet efficitur eros. Sed
-          pulvinar, augue vitae vulputate bibendum, ipsum nunc lacinia tortor, a
-          dignissim enim velit id ligula.
+          Après plusieurs années en tant que pizzaiolo, j'ai choisi une nouvelle
+          voie qui me passionne, le développement web. J'ai donc suivi la
+          formation de développeur web avec OpenClassrooms de décembre 2022 à
+          août 2023 qui m'a permis d'acquérir les compétences nécessaires pour
+          être une bonne développeuse. J'aime créer des interfaces d'application
+          de qualité qui facilitent la vie des utilisateurs et je serais ravi de
+          pouvoir collaborer avec vous !
         </p>
       </main>
     </div>
