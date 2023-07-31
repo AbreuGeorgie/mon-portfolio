@@ -1,24 +1,5 @@
-/* import avatar from "../assets/avatar.png";
-import Image from "react-bootstrap/esm/Image";
-import "./Avatar.scss"
-
-function Avatar() {
-  return (
-    <Image
-      src={avatar}
-      roundedCircle
-      alt="avatar"
-      width={200}
-      height={200}
-      className="bounce"
-    />
-  );
-}
-export default Avatar; */
-
-
 import React, { useState } from 'react';
-import avatar from "../assets/avatar.png";
+import avatar from "../assets/avatar_georgie.png";
 import Image from "react-bootstrap/esm/Image";
 import "./Avatar.scss";
 
