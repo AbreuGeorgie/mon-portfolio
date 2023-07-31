@@ -46,6 +46,7 @@ function Projects() {
                   site={card.site}
                   type={card.type}
                   date={card.date}
+                  skills={card.skills}
                   pictures={card.pictures}
                   show={selectedCardId === card.id}
                   setShow={() => setSelectedCardId(null)}
