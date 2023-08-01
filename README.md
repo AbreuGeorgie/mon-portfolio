@@ -28,9 +28,13 @@ Création d'un site portfolio.
 - Être accessible en ligne via internet.
 - Être responsive : c’est-à-dire s’afficher correctement sur mobile et tablette.
 
-> ### Compétences évaluées :
+> ### Compétences évaluées 
 >
 > - Déployer un site statique en ligne
+
+## Mon portfolio en ligne
+
+[Lien](http://georgie-portfolio.s3-website-eu-west-1.amazonaws.com/) vers mon portfolio.
 
 ## Auteur :
 
