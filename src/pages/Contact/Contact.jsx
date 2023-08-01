@@ -1,4 +1,4 @@
-import FormContact from "../components/FormContact";
+import FormContact from "../../components/FormContact/FormContact";
 
 function Contact() {
   return (

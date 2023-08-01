@@ -1,17 +1,16 @@
-
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
+import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+import Row from "react-bootstrap/Row";
 
 function FormContact() {
   const [formData, setFormData] = useState({
-    name: '',
-    firstName: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    firstName: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
   const handleInputChange = (event) => {
@@ -85,7 +84,7 @@ function FormContact() {
           <Form.Control
             as="textarea"
             placeholder="Votre message"
-            style={{ height: '100px' }}
+            style={{ height: "100px" }}
             name="message"
             value={formData.message}
             onChange={handleInputChange}

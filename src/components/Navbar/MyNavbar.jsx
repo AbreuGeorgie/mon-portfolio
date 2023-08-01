@@ -21,9 +21,7 @@ const MyNavbar = () => {
   };
 
   return (
-
     <div className="menu-nav d-block d-lg-none">
-        
       <nav className="nav-burger d-flex justify-content-end">
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>
@@ -34,11 +32,13 @@ const MyNavbar = () => {
 
       <div className={menu_class}>
         <nav className="nav-items">
-        <NavLink to="/" end>Accueil</NavLink>
-        <NavLink to="/about">A propos de moi</NavLink>
-        <NavLink to="/skills">Mes compétences</NavLink>
-        <NavLink to="/projects">Mes projets réalisés</NavLink>
-        <NavLink to="/contact">Contactez-moi !</NavLink>
+          <NavLink to="/" end>
+            Accueil
+          </NavLink>
+          <NavLink to="/about">A propos de moi</NavLink>
+          <NavLink to="/skills">Mes compétences</NavLink>
+          <NavLink to="/projects">Mes projets réalisés</NavLink>
+          <NavLink to="/contact">Contactez-moi !</NavLink>
         </nav>
       </div>
     </div>

@@ -87,10 +87,19 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.txt-justify{
-  text-align: justify
+.txt-justify {
+  text-align: justify;
 }
-.form-contact{
+.form-contact {
   margin: 1rem;
+}
+.modalApercu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modalImageApercu {
+  height: 100%;
+  width: 100%;
 }
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,14 +1,14 @@
 import Button from "react-bootstrap/Button";
-import "../custom.scss";
+import "../../custom.scss";
 import "./Home.scss";
-import github from "../assets/logos/github.png";
-import linkedin from "../assets/logos/linkedin.png";
+import github from "../../assets/logos/github.png";
+import linkedin from "../../assets/logos/linkedin.png";
 import Image from "react-bootstrap/esm/Image";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/esm/Col";
 import { Link } from "react-router-dom";
-import Avatar from "../components/Avatar";
+import Avatar from "../../components/Avatar/Avatar";
 
 function Home() {
   return (
@@ -27,7 +27,9 @@ function Home() {
           <Avatar />
         </Col>
         <div className="main-home">
-          <Button href="cv_georgie.pdf" target="_blank" size="lg">Mon CV</Button>
+          <Button href="Mon_CV.pdf" target="_blank" size="lg">
+            Mon CV
+          </Button>
           <div className="socialMedia">
             <Link
               to="https://www.linkedin.com/in/georgie-abreu-b4592225a/"

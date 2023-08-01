@@ -1,142 +1,141 @@
-
 [
-	{
-		"id": "c67ab8a7",
-		"category":"Frontend",
-		"title": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
-		"date": "Janvier 2023",
-		"cover": "projets/booki.png",
-        "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"context": "L’entreprise Booki souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. En tant que développeuse Web je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
-		"description":"Dans ce projet, j'ai implémenté l'interface responsive de la page d'accueil du site internet Booki (qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix) avec HTML et CSS à l'aide de la maquette fournie sur Figma. J'ai utilisé Flexbox pour certaine partie de mon CSS et appréhender Flexbox est ce qui a été pour moi le plus compliqué dans ce projet. J'ai surmonté ces difficultés grâce à la ; : documentation Mozzila; : et de la pratique, une fois pris en main, flexbox m'a fait gagner du temps sur l'écriture de mon code CSS",
-		"compétences":[
-			"Implémenter une interface responsive avec HTML et CSS",
-			"Versionner son projet avec Git et Github",
-			"Intégrer du contenu conformément à une maquette avec HTML et CSS",
-			"Installer un environnement de développement front-end"
-		],
-		"technologies": [
-			"HTML",
-			"CSS"
-		]
-	},
-	{
-		"id": "c67ab8u9",
-		"category":"Frontend",
-		"title": "Créer une page web dynamique avec Javascript",
-		"date": "Février 2023",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-		],
-        "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"context": "Je travaille comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur afin de réaliser la partie front-end du projet.",
-		"description":"",
-		"compétences":[
-			"Implémenter une interface responsive avec HTML et CSS",
-			"Versionner son projet avec Git et Github",
-			"Intégrer du contenu conformément à une maquette avec HTML et CSS",
-			"Installer un environnement de développement front-end"
-		],
-		"technologies": [
-			"HTML",
-			"CSS", 
-			"JAVASCRIPT"
-		],
-		"site":"https://github.com/AbreuGeorgie/projet3/tree/partie1/FrontEnd"
-	},
-	{
-		"id": "c67ab8fg5",
-		"category":"Projet",
-		"title": "Planifiez le développement du site de votre client",
-		"date": "Avril 2023",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-		],
-        "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"context": "Je suis développeuse front-end au sein de l’agence Webgencia. Cette semaine, on m'a confié une mission un peu différente de d’habitude. Il ne s’agit pas de développer un site mais de mener, préparer et planifier le projet de développement d’un site. En effet, Qwenta, un de mes clients, souhaite faire développer un “Menu Maker”. Il s’agit d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. C’est l’occasion pour moi de mettre en place une méthodologie de travail agile et de collaborer avec Soufiane, Product Owner.",
-		"description":"",
-		"technologies": [
-			"TRELLO",
-			"METHODOLOGIE AGILE", 
-			"KANBAN"
-		],
-		"site":"https://trello.com/"
-	},
-	{
-		"id": "c67ab8p3",
-		"category":"Frontend",
-		"title": "Débuggez et optimisez un site de photographe",
-		"date": "Mai 2023",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-		"pictures": [
-			"projets/p5-1.png",
-			"projets/p5-2.png",
-			"projets/p5-3.png",
-			"projets/p5-4.png"
-		],
-        "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"context": "Je suis développeuse freelance, et j'ai décidé de proposer mes services d’optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé l’un de mes amis. Nina répond positivement à ma demande en me demandant une optimisation de son site.",
-		"description":"",
-		"technologies": [
-			"SEO",
-			"JAVASCRIPT", 
-			"CHROME DEVTOOLS"
-		],
-		"site":"https://github.com/AbreuGeorgie/nina-carducci.github.io"
-	},
-	{
-		"id": "c67ab8b2",
-		"category":"Frontend",
-		"title": "Développement du site Kasa en React",
-		"date": "Mai 2023",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-		],
-        "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"context": "Kasa est une entreprise spécialisée dans la location d’appartements entre particuliers depuis près de 10 ans. Le site Kasa a été codé il y a près de 10 ans et l'entreprise souhaite faire une refonte totale de son site pour passer à une stack complète en JavaScript avec NodeJS côté Back-end et React côté Front-end. Mon rôle a été de développer la partie front-end du site web, en utilisant les composants React, les routes React Router tout en respectant les maquettes Figma.",
-		"description":"",
-		"technologies": [
-			"ReactJS",
-			"JS", 
-			"GitHub"
-		],
-		"site":"http://github.com"
-	},
-    {
-		"id": "c67ab8by7",
-		"category":"Backend",
-		"title": "Développez le back-end d'un site de notation de livres",
-		"date": "Juin 2023",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-		],
-        "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
-		"context": "Je suis développeuse back-end en freelance depuis maintenant un an dans la région de Lille. J'ai l’habitude de travailler avec Kévin, un développeur front-end plus expérimenté que moi, et qui a déjà un bon réseau de contacts dans le milieu. Kévin me contacte pour me proposer de travailler avec lui en mutualisant nos compétences front / back sur un tout nouveau projet qui lui a été proposé. Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres.",
-		"technologies": [
-			"NODE.JS",
-			"EXPRESS", 
-			"MONGODB"
-		],
-		"site":"https://github.com/AbreuGeorgie/P7-Dev-Web-livres"
-	}
+  {
+    "id": "c67ab8a7",
+    "category": "Frontend",
+    "title": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "date": "Janvier 2023",
+    "pictures": [
+      "projets/p2-1.png",
+	  "projets/p2-2.png",
+	  "projets/p2-3.png",
+	  "projets/p2-4.png"
+    ],
+    "cover": "projets/booki.png",
+    "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
+    "context": "L’entreprise Booki souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. En tant que développeuse Web je suis chargée d'intégrer l'interface du site avec du code HTML et CSS.",
+    "description": "Dans ce projet, j'ai implémenté l'interface responsive de la page d'accueil du site internet Booki (qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix) avec HTML et CSS à l'aide de la maquette fournie sur Figma. J'ai utilisé Flexbox pour certaines parties de mon CSS, et appréhender Flexbox est ce qui a été pour moi le plus compliqué dans ce projet. J'ai surmonté ces difficultés grâce à la documentation Flexbox de Mozzila et de la pratique. Puis une fois pris en main, Flexbox m'a fait gagner du temps sur l'écriture de mon code CSS",
+    "skills": [
+      "Implémenter une interface responsive avec HTML et CSS",
+      "Versionner son projet avec Git et Github",
+      "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+      "Installer un environnement de développement front-end"
+    ],
+    "technologies": ["HTML", "CSS"],
+    "site": "https://github.com/AbreuGeorgie/projet2"
+  },
+  {
+    "id": "c67ab8u9",
+    "category": "Frontend",
+    "title": "Créer une page web dynamique avec Javascript",
+    "date": "Février 2023",
+    "cover": "projets/p3-1.png",
+    "pictures": [
+    "projets/p3-1.png",
+	  "projets/p3-2.png",
+	  "projets/p3-3.png",
+	  "projets/p3-4.png"
+    ],
+    "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
+    "context": "Je travaille comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur afin de réaliser la partie front-end du projet.",
+    "description": "Sur ce projet, j'ai rendu dynamique un site web avec JavaScript. Ce site web regroupe un aperçu des différents projets réalisés par une architecte. J'ai aussi fait appel à une API avec fetch pour récupérer les différents projets via le back-end. J'ai rendu fonctionnels les différents filtres pour n'afficher que certains projets. J'ai aussi mis en place une modale qui permet d'ajouter/supprimer des projets dynamiquement. Pour moi, ce qui a été le plus difficile dans ce projet est de bien comprendre comment fonctionnent les fonctions asynchrones, mais en suivant les cours OpenCLassrooms j'ai pu y arriver.",
+    "skills": [
+      "Manipuler les éléments du DOM avec JavaScript",
+      "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+      "Gérer les événements utilisateurs avec JavaScript"
+    ],
+    "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+    "site": "https://github.com/AbreuGeorgie/projet3/tree/partie1/FrontEnd"
+  },
+  {
+    "id": "c67ab8fg5",
+    "category": "Projet",
+    "title": "Planifiez le développement du site de votre client",
+    "date": "Avril 2023",
+    "cover": "projets/p4-cover.png",
+    "pictures": [
+		"projets/Gantt.jpg",
+    "projets/p4-1.png",
+    "projets/p4-2.png"
+    ],
+    "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
+    "context": "Je suis développeuse front-end au sein de l’agence Webgencia. Cette semaine, on m'a confié une mission un peu différente de d’habitude. Il ne s’agit pas de développer un site mais de mener, préparer et planifier le projet de développement d’un site. En effet, Qwenta, un de mes clients, souhaite faire développer un “Menu Maker”. Il s’agit d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. C’est l’occasion pour moi de mettre en place une méthodologie de travail agile et de collaborer avec Soufiane, Product Owner.",
+    "description": "Dans ce projet, j'ai préparé les supports nécessaires afin de planifier le développement d'une application avec une méthodologie de travail agile. J'ai commencé par mettre en place une veille technologie où j'ai regroupé les articles trouvés sur une page Twitter, je me suis aussi abonnée aux pages qui me semblaient intéressantes dans la réalisation du projet. J'ai rédigé les spécifications techniques afin d'avoir une compréhension suffisamment claire du produit qui est attendu. Afin de pouvoir au mieux planifier le travail à réaliser pour développer le projet, j'ai choisi d'utiliser Trello qui est un outil de gestion de projet que je trouve assez intuitif, j'ai aussi réalisé un kanban. Dans ce projet, ce qui a été le plus compliqué pour moi, c'est la compréhension de ce qui était demandé, notamment pour la rédaction des slides sur la veille technologique. Pour surmonter ça, j'ai lu et relu les consignes et informations, et même sans être sûr de ce qui m'était demandé, je rédigeais des slides pour avancer dans mon projet, quitte à faire des erreurs, avant mes rendez-vous avec mon mentor afin de pouvoir en discuter avec lui et mieux cibler mes incompréhensions. Et cela m'a permis d'avancer plus facilement sur ce projet.",
+	"skills":[
+	"Suivre le déroulement du projet grâce à un outil de gestion de projet",
+	"Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+	"Découper une fonctionnalités en tâches pour préparer le développement",
+	"Présenter la solution technique",
+	"Mettre en place une méthode de veille technologique"
+	],
+    "technologies": ["TRELLO", "METHODOLOGIE AGILE", "KANBAN"],
+    "site": "https://trello.com/b/t1XjGg65/menumaker"
+  },
+  {
+    "id": "c67ab8p3",
+    "category": "Frontend",
+    "title": "Débuggez et optimisez un site de photographe",
+    "date": "Mai 2023",
+    "cover": "projets/p5-1.png",
+    "pictures": [
+      "projets/p5-1.png",
+      "projets/p5-2.png",
+      "projets/p5-3.png",
+      "projets/p5-4.png",
+      "projets/p5-6.png"
+    ],
+    "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
+    "context": "Je suis développeuse freelance, et j'ai décidé de proposer mes services d’optimisation SEO à de nouveaux clients. Pour ce faire, j'ai analysé plusieurs sites internet. Parmi mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé l’un de mes amis. Nina répond positivement à ma demande en me demandant une optimisation de son site.",
+    "description": "Ce projet a pour but d'améliorer le SEO d'un site de photographe. J'ai fait une première analyse du code initial avec Lighthouse, pour avoir une idée des éléments à modifier, j'ai aussi débbuger le site web grâce aux Chrome DevTools et points d'arrêt. J'ai optimisé le code (ajout des balises sémantiques, minification du code, ajout de rich snippet), et j'ai amélioré l'accessibilité, ce que j'ai pu vérifier avec l'extension Chrome Wave Evaluation Tools. La partie la plus dure de ce projet est, pour moi, d'avoir un rapport Lighthouse supérieur à 90 % car cela dépend d'un ensemble de choses, et je ne m'en suis pas rendu compte tout de suite, notamment la connexion internet, car la vitesse de chargement du site impact sur la note.",
+	"skills": [
+		"Optimiser les performances d’un site web",
+		"Débugger un site web grâce aux Chrome DevTools",
+		"Rédiger un cahier de recette pour tester un site"
+],
+    "technologies": ["SEO", "JAVASCRIPT", "CHROME DEVTOOLS"],
+    "site": "https://github.com/AbreuGeorgie/nina-carducci.github.io"
+  },
+  {
+    "id": "c67ab8b2",
+    "category": "Frontend",
+    "title": "Développement du site Kasa en React",
+    "date": "Mai 2023",
+    "cover": "projets/p6-6.png",
+    "pictures": [
+      "projets/p6-1.png",
+      "projets/p6-2.png",
+      "projets/p6-3.png",
+      "projets/p6-4.png",
+      "projets/p6-5.png",
+      "projets/p6-6.png"
+    ],
+    "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
+    "context": "Kasa est une entreprise spécialisée dans la location d’appartements entre particuliers depuis près de 10 ans. Le site Kasa a été codé il y a près de 10 ans et l'entreprise souhaite faire une refonte totale de son site pour passer à une stack complète en JavaScript avec NodeJS côté Back-end et React côté Front-end. Mon rôle a été de développer la partie front-end du site web, en utilisant les composants React, les routes React Router tout en respectant les maquettes Figma.",
+    "description": "Dans ce projet, j'ai fait une refonte totale du site web de location de logements entre particuliers pour passer à une stack complète en JavaScript avec NodeJS côté Back-end et React côté Front-end. J'ai réalisé la partie front-end en utilisant les composants React, les routes React Router tout en respectant les maquettes Figma. L'utilisation des Hooks, pour gérer l'état entre plusieurs composants, a été un peu difficile à appréhender mais au fur et à mesure de l'avancée du projet, c'est devenu de plus en plus intuitif et nous permet notamment de gérer facilement l'état des composants.",
+    "technologies": ["ReactJS", "JS", "SASS", "GitHub"],
+	"skills":[
+	"Configurer la navigation entre les pages de l'application avec React Router",
+	"Développer une interface web avec Sass",
+	"Initialiser une application avec Create React App",
+	"Développer des éléments de l'interface d'un site web grâce à des composants React",
+	"Mettre en œuvre des animations CSS"
+	],
+    "site": "https://github.com/AbreuGeorgie/kasa"
+  },
+  {
+    "id": "c67ab8by7",
+    "category": "Backend",
+    "title": "Développez le back-end d'un site de notation de livres",
+    "date": "Juin 2023",
+    "cover": "projets/p7.png",
+    "type": "Projet réalisé dans le cadre de la formation développeur web d'OpenClassrooms",
+    "context": "Je suis développeuse back-end en freelance depuis maintenant un an dans la région de Lille. J'ai l’habitude de travailler avec Kévin, un développeur front-end plus expérimenté que moi, et qui a déjà un bon réseau de contacts dans le milieu. Kévin me contacte pour me proposer de travailler avec lui en mutualisant nos compétences front / back sur un tout nouveau projet qui lui a été proposé. Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres.",
+	"description": "Ce projet consiste à développer le back-end d'un site de notation de livres, j'ai configuré et connecté la base de données à l’application Express, j'ai utilisé Mongoose pour créer un modèle de données, afin de faciliter les opérations de la base et l’implémentation des routes CRUD, pour rendre l’application dynamique. J'ai mis en place un système d'authentification des utilisateurs et j'ai aussi implémenté la fonctionnalité de notation de livres et de calcul de la moyenne des notes d'un livre.",
+	"skills": [
+		"Implémenter un modèle logique de données conformément à la réglementation",
+		"Stocker des données de manière sécurisée",
+		"Mettre en œuvre des opérations CRUD de manière sécurisée"
+],
+    "technologies": ["NODE.JS", "EXPRESS", "MONGODB"],
+    "site": "https://github.com/AbreuGeorgie/P7-Dev-Web-livres"
+  }
 ]

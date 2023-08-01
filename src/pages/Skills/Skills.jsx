@@ -1,15 +1,15 @@
 import Badge from "react-bootstrap/Badge";
-import html from "../assets/logos/html.png";
-import js from "../assets/logos/js.png";
-import reactjs from "../assets/logos/reactjs.png";
-import nodejs from "../assets/logos/nodejs.png";
-import mongodb from "../assets/logos/mongodb.png";
-import trello from "../assets/logos/trello.png";
-import figma from "../assets/logos/figma.png";
-import github2 from "../assets/logos/github2.png";
-import bootstrap from "../assets/logos/bootstrap.png";
-import sass from "../assets/logos/sass.png";
-import css from "../assets/logos/css.png";
+import html from "../../assets/logos/html.png";
+import js from "../../assets/logos/js.png";
+import reactjs from "../../assets/logos/reactjs.png";
+import nodejs from "../../assets/logos/nodejs.png";
+import mongodb from "../../assets/logos/mongodb.png";
+import trello from "../../assets/logos/trello.png";
+import figma from "../../assets/logos/figma.png";
+import github2 from "../../assets/logos/github2.png";
+import bootstrap from "../../assets/logos/bootstrap.png";
+import sass from "../../assets/logos/sass.png";
+import css from "../../assets/logos/css.png";
 
 function Skills() {
   return (

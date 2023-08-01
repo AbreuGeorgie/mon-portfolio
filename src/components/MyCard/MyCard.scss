@@ -1,4 +1,4 @@
-@import "../_variables_overrides.scss";
+@import "../../_variables_overrides.scss";
 .flip-card {
   position: relative;
   width: 30vh;
@@ -34,7 +34,7 @@
   object-fit: cover;
 }
 
-.card-container{
+.card-container {
   border: solid !important;
   border-color: $primary !important;
   border-radius: 4px;

@@ -55,23 +55,26 @@ export default function MyModal({
               <h2 className="text-secondary">Compétences évaluées :</h2>
               <ul>
                 {skills.map((skill, i) => (
-                  <li key={i}>
-                      {skill}
-                  </li>
+                  <li key={i}>{skill}</li>
                 ))}
               </ul>
               <Link to={site} target="_blank" rel="noopener noreferrer">
                 <h2>Lien vers le projet</h2>
               </Link>
-              <>
+              <div className="modalApercu">
                 {pictures ? (
                   pictures.map((picture, i) => (
-                    <img key={i} src={picture} alt="images du projet" />
+                    <img
+                      key={i}
+                      src={picture}
+                      className="modalImageApercu"
+                      alt="images du projet"
+                    />
                   ))
                 ) : (
                   <></>
                 )}
-              </>
+              </div>
             </MDBModalBody>
           </MDBModalContent>
         </MDBModalDialog>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Filter from "../components/Filter";
-import MyCard from "../components/MyCard";
-import datas from "../datas.json";
-import MyModal from "../components/Modale";
+import Filter from "../../components/Filter/Filter";
+import MyCard from "../../components/MyCard/MyCard";
+import datas from "../../datas.json";
+import MyModal from "../../components/Modale/Modale";
 
 function Projects() {
   const [filterCategory, setFilter] = useState("Frontend");
@@ -29,7 +29,10 @@ function Projects() {
           {datas
             .filter((card) => card.category === filterCategory)
             .map((card) => (
-              <div key={`${card.id} - card`} className="d-flex flex-wrap justify-content-center bg-none mt-4">
+              <div
+                key={`${card.id} - card`}
+                className="d-flex flex-wrap justify-content-center bg-none mt-4"
+              >
                 <MyCard
                   id={card.id}
                   cover={card.cover}

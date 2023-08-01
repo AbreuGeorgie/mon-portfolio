@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import avatar from "../assets/avatar_georgie.png";
+import React, { useState } from "react";
+import avatar from "../../assets/avatar_georgie.png";
 import Image from "react-bootstrap/esm/Image";
 import "./Avatar.scss";
 
@@ -23,7 +23,7 @@ function Avatar() {
       alt="avatar"
       width={200}
       height={200}
-      className={isHovered ? 'bounce' : ''}
+      className={isHovered ? "bounce" : ""}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     />
