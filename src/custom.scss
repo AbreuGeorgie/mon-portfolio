@@ -3,9 +3,13 @@
 $base-font-stack: "Montserrat", sans-serif;
 $title-font-stack: "Bebas Neue", sans-serif;
 
+.btn-primary{
+  color: $text-success !important;
+}
+
 .btn-primary:active {
   background-color: $primary !important;
-  color: black !important;
+  color: $text-success !important;
   border-color: $primary !important;
 }
 .btn-secondary:active {
@@ -67,6 +71,7 @@ h1,
 button {
   font-family: $title-font-stack;
   font-size: 36px;
+  text-decoration-color: $text-success;
 }
 
 p,
