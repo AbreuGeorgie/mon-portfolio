@@ -59,6 +59,11 @@ html {
 }
 
 h1,
+h2 {
+  color: $text-success;
+}
+
+h1,
 button {
   font-family: $title-font-stack;
   font-size: 36px;

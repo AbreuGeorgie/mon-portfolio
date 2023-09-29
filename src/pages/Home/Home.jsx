@@ -32,7 +32,7 @@ function Home() {
           </Button>
           <div className="socialMedia">
             <Link
-              to="https://www.linkedin.com/in/georgie-abreu-b4592225a/"
+              to="https://www.linkedin.com/in/georgie-abreu/"
               target="_blank"
               rel="noopener noreferrer"
             >
