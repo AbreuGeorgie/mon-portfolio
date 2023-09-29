@@ -1,5 +1,7 @@
-import Badge from "react-bootstrap/Badge";
-import html from "../../assets/logos/html.png";
+//import Badge from "react-bootstrap/Badge";
+import skills from "../../skills.json";
+import Skill from "../../components/Skill/Skill";
+/* import html from "../../assets/logos/html.png";
 import js from "../../assets/logos/js.png";
 import reactjs from "../../assets/logos/reactjs.png";
 import nodejs from "../../assets/logos/nodejs.png";
@@ -9,7 +11,7 @@ import figma from "../../assets/logos/figma.png";
 import github2 from "../../assets/logos/github2.png";
 import bootstrap from "../../assets/logos/bootstrap.png";
 import sass from "../../assets/logos/sass.png";
-import css from "../../assets/logos/css.png";
+import css from "../../assets/logos/css.png"; */
 
 function Skills() {
   return (
@@ -20,12 +22,27 @@ function Skills() {
       <main>
         <div className="d-flex flex-wrap justify-content-evenly w-100">
           <div className="d-flex flex-column align-items-center m-lg-3  img-sm-size img-md-size img-lg-size img-xl-size">
-            <img src={html} width={100} height={100} alt="html" />
+          {skills
+            .map((skill) => (
+              <div
+                key={`${skill.id} - skill`}
+                className="d-flex flex-wrap justify-content-center bg-none mt-4"
+              >
+                <Skill
+                  id={skill.id}
+                  name={skill.name}
+                  picture={skill.picture}
+                  width={skill.width}
+                  height={skill.height}
+                />
+              </div>
+            ))}
+            {/*  <img src={html} width={100} height={100} alt="html" />
             <figcaption className="figure-caption">
               <Badge pill bg="secondary">
                 HTML
               </Badge>
-            </figcaption>
+            </figcaption> 
           </div>
           <div className="d-flex flex-column align-items-center m-lg-3">
             <img src={css} width={100} height={100} alt="css" />
@@ -106,7 +123,8 @@ function Skills() {
                 SASS
               </Badge>
             </figcaption>
-          </div>
+ */}
+           </div>
         </div>
       </main>
     </div>
