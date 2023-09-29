@@ -1,3 +1,5 @@
+import Video from "../../components/Video/Video";
+
 function About() {
   return (
     <div>
@@ -5,6 +7,7 @@ function About() {
         <h1>A propos de moi</h1>
       </header>
       <main>
+        <Video/>
         <p className="mt-5 txt-justify">
           Après plusieurs années en tant que pizzaiolo, j'ai choisi une nouvelle
           voie qui me passionne, le développement web. J'ai donc suivi la
