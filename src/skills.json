@@ -2,84 +2,77 @@
     {
       "id": "az45cf",
       "name": "HTML",
-      "picture": "../../assets/logos/html.png",
-      "width": "100",
+      "picture": "logos/html.png",
+      "width": "80",
       "height": "100"
     },
     {
         "id": "az46cf",
-        "name": "CS",
-        "picture": "../../assets/logos/css.png",
-        "width": "100",
+        "name": "CSS",
+        "picture": "logos/css.png",
+        "width": "80",
         "height": "100"
       },
       {
         "id": "az47cf",
         "name": "Javascript",
-        "picture": "../../assets/logos/js.png",
-        "width": "110",
+        "picture": "logos/js.png",
+        "width": "80",
         "height": "100"
       },
       {
         "id": "az48cf",
         "name": "ReactJS",
-        "picture": "../../assets/logos/reactjs.png",
+        "picture": "logos/reactjs.png",
         "width": "100",
         "height": "100"
       },
       {
         "id": "az49cf",
         "name": "Node.JS",
-        "picture": "../../assets/logos/nodejs.png",
+        "picture": "logos/nodejs.png",
         "width": "100",
         "height": "100"
       },
       {
         "id": "az50cf",
         "name": "MongoDB",
-        "picture": "../../assets/logos/mongodb.png",
+        "picture": "logos/mongodb.png",
         "width": "100",
         "height": "100"
       },
       {
         "id": "az51cf",
         "name": "Trello",
-        "picture": "../../assets/logos/trello.png",
+        "picture": "logos/trello.png",
         "width": "100",
         "height": "100"
       },
       {
         "id": "az52cf",
         "name": "Figma",
-        "picture": "../../assets/logos/figma.png",
+        "picture": "logos/figma.png",
         "width": "120",
-        "height": "100"
-      },
-      {
-        "id": "az53cf",
-        "name": "HTML",
-        "picture": "../../assets/logos/html.png",
-        "width": "100",
         "height": "100"
       },
       {
         "id": "az54cf",
         "name": "GitHub",
-        "picture": "../../assets/logos/github2.png",
+        "picture": "logos/github2.png",
         "width": "100",
         "height": "100"
       },
       {
         "id": "az55cf",
         "name": "Bootstrap",
-        "picture": "../../assets/logos/bootstrap.png",
+        "picture": "logos/bootstrap.png",
         "width": "100",
         "height": "100"
       },
       {
         "id": "az56cf",
         "name": "SASS",
-        "picture": "../../assets/logos/sass.png",
+        "picture": "logos/sass.png",
         "width": "120",
         "height": "100"
       }

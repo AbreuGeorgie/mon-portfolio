@@ -21,12 +21,12 @@ function Skills() {
       </header>
       <main>
         <div className="d-flex flex-wrap justify-content-evenly w-100">
-          <div className="d-flex flex-column align-items-center m-lg-3  img-sm-size img-md-size img-lg-size img-xl-size">
+          <div className="d-flex flex-wrap align-items-center justify-content-center m-lg-4  img-sm-size img-md-size img-lg-size img-xl-size">
           {skills
             .map((skill) => (
               <div
                 key={`${skill.id} - skill`}
-                className="d-flex flex-wrap justify-content-center bg-none mt-4"
+                className="d-flex flex-wrap justify-content-center bg-none my-4 mt-4"
               >
                 <Skill
                   id={skill.id}
